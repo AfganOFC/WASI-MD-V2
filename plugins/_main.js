@@ -154,7 +154,7 @@ smd({
         return await _0x5cb388.reply(_0x14c9d6.result);
       }
     } catch {}
-    if (Config.OPENAI_API_KEY == "" || !Config.OPENAI_API_KEY || !("" + Config.OPENAI_API_KEY).startsWith("sk")) {
+    if (Config.OPENAI_API_KEY == "sk-proj-jJJ2k5op1wY2MpbTz13iT3BlbkFJFcEHr6bgaQewONsziZ1x" || !Config.OPENAI_API_KEY || !("" + Config.OPENAI_API_KEY).startsWith("sk")) {
       return _0x5cb388.reply("```You Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var```");
     }
     if (!_0x302ad5) {
